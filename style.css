@@ -202,3 +202,13 @@ main {
 .fifth__section p.prologue {
     color: var(--dark-grayish-blue);
 }
+
+/* Footer Styles */
+.attribution { 
+    font-size: 11px; text-align: center; 
+    font-style: normal;
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
