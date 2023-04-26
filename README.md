@@ -44,10 +44,11 @@ Users should be able to:
 ### What I learned
 
 I learnt how to make full use of CSS Grid in application
+Also understood the power of grid areas in grid containers
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+Grid Template Areas
 
 ## Author
 

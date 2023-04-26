@@ -102,6 +102,14 @@ main {
 /* First__Section Styles */
 .first__section {
     background: var(--violet);
+    background-image: url(images/bg-pattern-quotation.svg);
+    background-repeat: no-repeat;
+    background-position: top 0 right 10%;
+    background-size: 30%;
+}
+
+.first__section img {
+    border: 3px solid hsl(0, 0%, 81%, 0.5);
 }
 
 .first__section h3 {
@@ -166,6 +174,10 @@ main {
     background: var(--dark-blackish-blue);
 }
 
+.fourth__section img {
+    border: 3px solid var(--violet);
+}
+
 .fourth__section h3 {
     color: var(--light-gray);
 }
@@ -211,4 +223,43 @@ main {
 
 .attribution a { 
     color: hsl(228, 45%, 44%); 
+}
+
+/* Tablet Styles */
+@media (min-width: 860px) {
+    body {
+        width: 98%;
+        margin-inline: auto;
+    }
+
+    main {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-areas: 
+        "section-1 section-1 section-2 section-5"
+        "section-3 section-4 section-4 section-5";
+    }
+
+    .first__section {
+        background-position: top 0 right 15%;
+        background-size: 21%;
+        grid-area: section-1;
+    }
+
+    .second__section {
+        grid-area: section-2;
+    }
+
+    .third__section {
+        grid-area: section-3;
+    }
+
+    .fourth__section {
+        grid-area: section-4;
+    }
+
+    .fifth__section {
+        grid-area: section-5;
+    }
 }
