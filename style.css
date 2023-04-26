@@ -34,12 +34,63 @@
 /* Base Styles */
 body {
     font-family: 'Barlow Semi Condensed', sans-serif;
+    background: var(--light-grayish-blue);
+    font-size: 0.813rem;
+}
+
+section {
+    background: white;
+    border-radius: 10px;
+    padding-inline: 1.5rem;
+    padding-block: 1.8rem;
+}
+
+section .grid--header {
+    display: flex;
+    align-items: center;
+    gap: 1.2rem;
+}
+
+img {
+    border-radius: 50px;
+    width: 40px;
+    height: 40px;
+}
+
+section .header--content {
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+}
+
+.header--content p {
+    font-weight: 500;
+}
+
+.grid--header ~ p {
+    font-weight: 500;
+    line-height: 1.5rem;
+    font-size: 0.73239rem;
+}
+
+section p.prologue {
+    font-weight: 600;
+    font-size: 1.029rem;
+    margin-block: 1.5rem;
 }
 
 /* Utility Styles */
 .container {
-    width: min(86%, 1200px);
+    width: min(85%, 1200px);
     margin-inline: auto;
 }
 
 /* Mobile Styles */
+/* Main Styles */
+main {
+    display: grid;
+    gap: 1.6rem;
+    margin-block: 5rem;
+}
+
+/* Section Styles */
