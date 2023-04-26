@@ -38,8 +38,12 @@ body {
     font-size: 0.813rem;
 }
 
+h3 {
+    font-weight: 500;
+    font-size: 0.97rem;
+}
+
 section {
-    background: white;
     border-radius: 10px;
     padding-inline: 1.5rem;
     padding-block: 1.8rem;
@@ -65,6 +69,7 @@ section .header--content {
 
 .header--content p {
     font-weight: 500;
+    font-size: 0.82rem;
 }
 
 .grid--header ~ p {
@@ -94,3 +99,106 @@ main {
 }
 
 /* Section Styles */
+/* First__Section Styles */
+.first__section {
+    background: var(--violet);
+}
+
+.first__section h3 {
+    color: var(--light-grayish-blue);
+}
+
+.first__section .header--content p {
+    color: hsla(210, 46%, 95%, 0.5);
+}
+
+.first__section .grid--header ~ p {
+    color: hsla(0, 0%, 100%, 0.7);
+}
+
+.first__section p.prologue {
+    color: var(--white);
+}
+
+/* Second__Section Styles */
+.second__section {
+    background: var(--dark-grayish-blue);
+}
+
+.second__section h3 {
+    color: var(--light-gray);
+}
+
+.second__section .header--content p{
+    color: hsl(0, 0%, 81%, 0.5);
+}
+
+.second__section .grid--header ~ p {
+    color: hsl(0, 0%, 100%, 0.7);
+}
+
+.second__section p.prologue {
+    color: var(--white);
+}
+
+/* Third__Section Styles */
+.third__section {
+    background: var(--white);
+}
+.third__section h3 {
+    color: var(--dark-blackish-blue);
+}
+
+.third__section .header--content p{
+    color: hsl(219, 29%, 14%, 0.5);
+}
+
+.third__section .grid--header ~ p {
+    color: hsl(219, 29%, 14%, 0.7);
+}
+
+.third__section p.prologue {
+    color: var(--dark-blackish-blue);
+}
+
+/* Fourth__Section Styles */
+.fourth__section {
+    background: var(--dark-blackish-blue);
+}
+
+.fourth__section h3 {
+    color: var(--light-gray);
+}
+
+.fourth__section .header--content p{
+    color: hsl(0, 0%, 100%, 0.5);
+}
+
+.fourth__section .grid--header ~ p {
+    color: hsl(0, 0%, 81%, 0.7);
+}
+
+.fourth__section p.prologue {
+    color: var(--light-gray);
+}
+
+/* Fifth__Section Styles */
+.fifth__section {
+    background: var(--white);
+}
+
+.fifth__section h3 {
+    color: var(--dark-blackish-blue);
+}
+
+.fifth__section .header--content p{
+    color: hsl(219, 29%, 14%, 0.5);
+}
+
+.fifth__section .grid--header ~ p {
+    color: hsl(217, 19%, 35%, 0.7);
+}
+
+.fifth__section p.prologue {
+    color: var(--dark-grayish-blue);
+}
