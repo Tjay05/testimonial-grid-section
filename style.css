@@ -75,12 +75,12 @@ section .header--content {
 .grid--header ~ p {
     font-weight: 500;
     line-height: 1.5rem;
-    font-size: 0.73239rem;
+    font-size: 0.84rem;
 }
 
 section p.prologue {
     font-weight: 600;
-    font-size: 1.029rem;
+    font-size: 1.227rem;
     margin-block: 1.5rem;
 }
 
@@ -99,6 +99,12 @@ main {
 }
 
 /* Section Styles */
+section p.prologue {
+    font-weight: 600;
+    font-size: 1.33rem;
+    margin-block: 1.5rem;
+}
+
 /* First__Section Styles */
 .first__section {
     background: var(--violet);
