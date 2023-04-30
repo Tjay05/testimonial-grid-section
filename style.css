@@ -222,6 +222,9 @@ section p.prologue {
 }
 
 /* Footer Styles */
+address {
+    margin-bottom: 0rem;
+}
 .attribution { 
     font-size: 11px; text-align: center; 
     font-style: normal;
